@@ -24,7 +24,7 @@ http://yoursite.com/search-by-image.php?url=http://www.images.com/myimage.jpg
 This will return a string of guess that google display, 
 or the whole page source code if $raw is true:
 
-http://yoursite.com/search-by-image.php?url=http://www.images.com/myimage.jpg?raw=true
+http://yoursite.com/search-by-image.php?url=http://www.images.com/myimage.jpg&raw=true
 
 
 you could also use that as a form:
