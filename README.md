@@ -7,6 +7,11 @@ This function will fetch google search by image search, get the result page sour
 
 It's simple by you have to get the CURL Options right to be able to get the result page, otherwise google does this weird protection thing where you will get 302 error (Page moved), but that url will just take you bak to google homepage
 
+!!!!IMPORTANT!!!
+The file cookies.txt has to be writable by the webserver, so give it the permistions 777
+(chmod 777 cookies.txt)
+
+This is important for script to save the cookies from google and submit them on image search request
 
 
 OPTIONS:
